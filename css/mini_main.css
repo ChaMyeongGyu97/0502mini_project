@@ -1,0 +1,23 @@
+#footer{
+    width: 100%;
+    height: 185px;
+    background-color: gainsboro;
+    white-space: nowrap;
+    padding-top: 15px;
+}
+#footer_ctn{
+    display: flex;
+    justify-content: space-around;
+}
+.center{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.slide{
+    object-fit: none;
+    height: 800px;
+}
+#top_logo{
+    height: 70px;
+}

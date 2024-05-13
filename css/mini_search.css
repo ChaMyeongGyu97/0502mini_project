@@ -1,0 +1,88 @@
+#footer {
+    width: 100%;
+    height: 185px;
+    background-color: gainsboro;
+    white-space: nowrap;
+    padding-top: 15px;
+}
+
+#footer_ctn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.center {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+#top_logo {
+    height: 70px;
+}
+
+section {
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+#left_section,
+#right_section {
+    width: 500px;
+    height: 700px;
+    border: 1px solid rgb(190, 190, 190);
+}
+
+#midle_section {
+    width: 50px;
+}
+
+.title_div {
+    height: 70px;
+}
+
+#search_title {
+    background-color: rgb(23, 152, 212);
+}
+
+#myList_title {
+    background-color: rgb(182, 137, 87);
+}
+
+#left_body {
+    background-color: rgb(224, 244, 247);
+    height: 628px;
+}
+
+#right_body {
+    background-color: rgb(230, 219, 207);
+    height: 628px;
+}
+
+.list_img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.list_table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+tr td,
+tr th {
+    border: 1px rgb(187, 187, 187) solid;
+}
+
+th {
+    background-color: rgb(228, 228, 228);
+}
+
+td {
+    background-color: white;
+}

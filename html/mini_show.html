@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="kor">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>펫마스터 반려견보기</title>
+    <link href="/0502mini_project/css/mini_show.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="http://192.168.0.51:5500/0502mini_project/html/mini_main.html"><img id="top_logo" src="/0502mini_project/img/logo.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="http://192.168.0.51:5500/0502mini_project/html/mini_intro.html">소개</a>
+                        <a class="nav-link" href="http://192.168.0.51:5500/0502mini_project/html/mini_understand.html">애완동물이해하기</a>
+                        <a class="nav-link active" aria-current="page" href="http://192.168.0.51:5500/0502mini_project/html/mini_show.html">반려견보기</a>
+                        <a class="nav-link" href="http://192.168.0.51:5500/0502mini_project/html/mini_application.html">입양신청</a>
+                        <a class="nav-link" href="http://192.168.0.51:5500/0502mini_project/html/mini_myList.html">관심반려견</a>
+                        <a class="nav-link" href="http://192.168.0.51:5500/0502mini_project/html/mini_search.html">반려견검색</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <br><br><br><br>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="/0502mini_project/img/골든 리트리버.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">미미 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-gender-male" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8"/>
+                  </svg> 5개월</h5>
+                  <p class="card-text">
+                    견종: 골든 리트리버<br>
+                    접종유무: 완료<br>
+                    중성화유무: 완료<br>
+                    좋아하는 것: 쓰다듬기<br>
+                    싫어하는 것: 습식사료<br>
+                    특이사항: -
+                </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">등록날짜: 2024-05-03</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/0502mini_project/img/닥스훈트.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">뽀또 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-gender-female" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8M3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5"/>
+                  </svg> 3개월</h5>
+                  <p class="card-text">견종: 닥스훈트<br>
+                    접종유무: 완료<br>
+                    중성화유무: -<br>
+                    좋아하는 것: 터그놀이<br>
+                    싫어하는 것: -<br>
+                    특이사항: -</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">등록날짜: 2024-05-03</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/0502mini_project/img/몰티즈.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">뚜비 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-gender-female" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8M3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5"/>
+                  </svg> 2개월</h5>
+                  <p class="card-text">견종: 몰티즈<br>
+                    접종유무: 완료<br>
+                    중성화유무: -<br>
+                    좋아하는 것: 개껌<br>
+                    싫어하는 것: 진공청소기<br>
+                    특이사항: -</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">등록날짜: 2024-05-03</small>
+                </div>
+              </div>
+            </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="/0502mini_project/img/비숑.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">콩이 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-gender-male" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8"/>
+                      </svg> 5개월</h5>
+                    <p class="card-text">견종: 비숑<br>
+                        접종유무: 완료<br>
+                        중성화유무: -<br>
+                        좋아하는 것: 산책<br>
+                        싫어하는 것: -<br>
+                        특이사항: -</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">등록날짜: 2024-05-03</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="/0502mini_project/img/비글.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">해피 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-gender-female" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8M3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5"/>
+                      </svg> 2개월</h5>
+                    <p class="card-text">견종: 비글<br>
+                        접종유무: 완료<br>
+                        중성화유무: -<br>
+                        좋아하는 것: 습식사료<br>
+                        싫어하는 것: -<br>
+                        특이사항: -</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">등록날짜: 2024-05-03</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="/0502mini_project/img/보스턴 테리어.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">쿠키 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-gender-female" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8M3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5"/>
+                      </svg> 2개월</h5>
+                    <p class="card-text">견종: 보스턴 테리어<br>
+                        접종유무: 완료<br>
+                        중성화유무: -<br>
+                        좋아하는 것: 테니스공<br>
+                        싫어하는 것: -<br>
+                        특이사항: -</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">등록날짜: 2024-05-03</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="/0502mini_project/img/보더콜리.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">호두 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-gender-female" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8M3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5"/>
+                      </svg> 8개월</h5>
+                    <p class="card-text">견종: 보더콜리<br>
+                        접종유무: 완료<br>
+                        중성화유무: 완료<br>
+                        좋아하는 것: - <br>
+                        싫어하는 것: -<br>
+                        특이사항: -</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">등록날짜: 2024-05-03</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="/0502mini_project/img/미니어처 핀셔.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">별이 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-gender-male" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8"/>
+                      </svg> 7개월</h5>
+                    <p class="card-text">견종: 미니어처 핀셔<br>
+                        접종유무: 완료<br>
+                        중성화유무: -<br>
+                        좋아하는 것: - <br>
+                        싫어하는 것: -<br>
+                        특이사항: -</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">등록날짜: 2024-05-03</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="/0502mini_project/img/미니어처 푸들.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">오스카 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-gender-female" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8M3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5"/>
+                      </svg> 4개월</h5>
+                    <p class="card-text">견종: 푸들<br>
+                        접종유무: 완료<br>
+                        중성화유무: -<br>
+                        좋아하는 것: - <br>
+                        싫어하는 것: -<br>
+                        특이사항: -</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">등록날짜: 2024-05-03</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="/0502mini_project/img/미니어처 슈나우저.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">토비 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-gender-male" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8"/>
+                      </svg> 4개월</h5>
+                    <p class="card-text">견종: 슈나우저<br>
+                        접종유무: 완료<br>
+                        중성화유무: -<br>
+                        좋아하는 것: - <br>
+                        싫어하는 것: -<br>
+                        특이사항: -</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">등록날짜: 2024-05-03</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="/0502mini_project/img/예정.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">코코 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-gender-female" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8M3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5"/>
+                      </svg> 1개월</h5>
+                    <p class="card-text">견종: 몰티즈<br>
+                        접종유무: -<br>
+                        중성화유무: -<br>
+                        좋아하는 것: - <br>
+                        싫어하는 것: -<br>
+                        특이사항: -</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">등록날짜: 2024-05-03</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="/0502mini_project/img/예정.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">맥스 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-gender-male" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8"/>
+                      </svg> 2개월</h5>
+                    <p class="card-text">견종: 비글<br>
+                        접종유무: 완료<br>
+                        중성화유무: -<br>
+                        좋아하는 것: - <br>
+                        싫어하는 것: -<br>
+                        특이사항: -</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">등록날짜: 2024-05-03</small>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </section>
+    <hr>
+    <footer id="footer">
+        <div id="footer_ctn">
+        <div><img id="top_logo" src="/0502mini_project/img/logo.png"></div>
+        <div>
+            <b>주소</b><br>
+            대한민국 경기도 수원시 팔달구 중부대로 104 3층
+        </div>
+        <div>
+            <b>연락처</b>
+            <div>
+                대표이사 차명규<br>
+                031-1234-5678<br>
+                chadog123@gmail.com
+            </div>
+        </div>
+        </div>
+        <hr>
+        <span class="center">© 2024 by humancha</span>
+    </footer>
+    <br>
+</body>
+
+</html>

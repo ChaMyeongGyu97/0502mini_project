@@ -1,0 +1,73 @@
+#footer {
+    width: 100%;
+    height: 185px;
+    background-color: gainsboro;
+    white-space: nowrap;
+    padding-top: 15px;
+  }
+
+  #footer_ctn {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .center {
+    float: left;
+    width: 100%;
+    text-align: center;
+  }
+
+  section {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+  }
+
+  td,
+  th {
+    border: 1px thistle solid;
+  }
+
+  #info_table {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #intro_text {
+    white-space: nowrap;
+  }
+
+  #intro_img_01 {
+    width: 100%;
+    height: 800px;
+    background-image: url(/0502mini_project/img/dog04.avif);
+    background-size: cover;
+  }
+
+  #content {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(60%);
+  }
+
+  #intro_img_02 {
+    width: 700px;
+    height: 480px;
+    background-image: url(/0502mini_project/img/man.jpg);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #left_text {
+    float: left;
+    backdrop-filter: blur(10px) brightness(100%);
+    text-align: left;
+    width: 40%;
+    padding-left: 15px;
+    height: 100%;
+  }
+
+  #top_logo {
+    height: 70px;
+  }
